@@ -1,6 +1,8 @@
 .footer {
     text-align: center;
     bottom:0;
+    font-family: "Open Sans", sans-serif;
+    color: rgba(28, 54, 83, .6);
 }
 
 .red-icon {
