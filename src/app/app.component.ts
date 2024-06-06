@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
+import { NavigationComponent } from './navigation/navigation.component';
 import { HeroComponent } from './hero/hero.component';
 import { FooterComponent } from './footer/footer.component';
 
@@ -10,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
   imports: [
     CommonModule,
     RouterOutlet,
+    NavigationComponent,
     HeroComponent,
     FooterComponent],
   templateUrl: './app.component.html',
