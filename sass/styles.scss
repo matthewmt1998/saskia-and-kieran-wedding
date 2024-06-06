@@ -162,7 +162,7 @@ Animations
 /* ==========================================================================
 Waypoinsts
 ========================================================================== */
-.wp1, .wp2, .wp3, .wp4, .wp5, .wp6, .wp7, .wp8, .wp9 {
+.wp1, .wp2, .mod, .bd1, .bd2, .bd3, .gm1, .gm2, .gm3, .gm4, .gm5, .gm6, .wp5, .wp6, .wp7, .wp8, .wp9 {
   visibility: hidden
 }
 .wp8, .wp9 {
@@ -549,9 +549,14 @@ Features-stack
 }
 
 /* ==========================================================================
-.events
+.Wedding Party
 ========================================================================== */
-.events {
+.wedding-party {
+  h5 {
+    text-transform: unset;
+  }
+
+
   .leftcol {
     padding-right: 100px;
     border-right: solid 1px $keyline-color;
@@ -560,10 +565,9 @@ Features-stack
     padding-left: 100px;
   }
 
-  .time {
+  .job {
     font-size: 13px;
     font-style: italic;
-    text-transform: lowercase;
     color: $txt-primary;
   }
 }
